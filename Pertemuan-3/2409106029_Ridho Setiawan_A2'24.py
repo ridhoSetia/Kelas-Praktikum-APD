@@ -1,10 +1,10 @@
 # # percabangan
 # cuaca = "mendung"
 
-# if(cuaca == "cerah"):
-#     print("kamu pergi keluar rumah")
+# if(cuaca == "mendung"):
+#     print("mendung cuy, mending tidur")
 # else:
-#     print("hari ini mendung")
+#     print("waduh cerah cuy, jadi malas")
 
 # umur = int(input("masukkan umur : "))
 
@@ -60,21 +60,23 @@
 #         print("pilih antara 1 - 4")
 
 
-
+# studi kasus 1
 # inputBeliBuku = int(input("Jumlah buku yang dibeli : "))
 # inputTotalPembelian = int(input("Total pembelian : "))
 
-# if(inputBeliBuku == 5 and inputTotalPembelian > 100000):
+# if(inputBeliBuku >= 5 and inputTotalPembelian > 100000):
 #     harga = inputTotalPembelian - (0.20*inputTotalPembelian)
 # else:
 #     harga = inputTotalPembelian
 
 # print(harga)
 
+# studi kasus 2
 # inputJenisKelamin = input("input jenis kelamin (L/P) : ")
 # hasil = "laki-laki" if inputJenisKelamin == "L" else "perempuan" if inputJenisKelamin == "P" else "jenis kelamin tidak diketahui"
 # print(hasil)
 
+# challenge
 inputNilai = int(input("input nilai : "))
 if inputNilai > 100:
     print("tidak memenuhi kondisi")
