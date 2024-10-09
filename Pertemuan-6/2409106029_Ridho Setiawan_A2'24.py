@@ -154,6 +154,7 @@ mhs = {
     "Angkatan": "2024"
 }
 
+# Studi Kasus 1
 print("""
 1. Tambah item baru
 2. Ubah satu key
@@ -192,6 +193,7 @@ Nilai = {
     "Kimia" : 70
 }
 
+# Studi Kasus 2
 totalNilai = sum(Nilai.values())
 print(f"Total nilai {totalNilai}")
 rata_rata = (totalNilai/len(Nilai))
